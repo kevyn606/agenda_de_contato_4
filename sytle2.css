@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif; ;
+}
+
+body{
+    background-color: #f5f6f7;
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    align-items:start
+}
+
+.box{
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    margin-bottom: 40px;
+    background-color: #6495ed;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+header img{
+    height: 42px;
+    margin-right: 20px;
+}
+
+header h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+.main{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+form input{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 16px;
+    padding: 8px;
+    text-align: center;
+    margin-right: 42px;
+ }
+ form button{
+    background-color: #6495ed;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+ }
+ form button:hover{
+    background-color: #2d55a0;
+    
+ }
+
+ table{
+   display: inline-block;
+   
+ }
+ table th{
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    text-align: start;
+    font-weight: bold;
+    padding-right: 110px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+ }
+ table td{
+    padding-right: 110px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    text-align: start;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+ }
+#calcula_contatos{
+    font-weight: bold;
+    color: #2d55a0;
+}
